@@ -77,7 +77,7 @@ iface <wlanid> inet static
 *Step 4:* Restart systemd networking.service for changes to take effect.
 
 ```
-$ sudo systemd restart networking
+$ sudo systemctl restart networking
 ```
 
 ## Common Setup
