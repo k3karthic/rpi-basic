@@ -1,5 +1,11 @@
 # Basic Setup of a Raspberry Pi
 
+Table of Contents
+* [Secure Shell](#secure-shell)
+* [Serial Console](#serial-console)
+* [Connect Wi-Fi](#connect-wi-fi)
+* [Common Setup](#common-setup)
+
 ## Secure Shell
 
 Enable remote SSH access by creating an empty file called `ssh` in `/boot`.
