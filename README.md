@@ -93,7 +93,7 @@ Use the Ansible playbook below for performing common tasks (e.g, swap, fail2ban)
   * GitHub: [github.com/k3karthic/ansible__ubuntu-basic](https://github.com/k3karthic/ansible__ubuntu-basic)
   * Codeberg: [codeberg.org/k3karthic/ansible__ubuntu-basic](https://codeberg.org/k3karthic/ansible__ubuntu-basic)
 
-### Requriements
+### Requirements
 
 *Step 1:* Install Python Virtualenv
 ```
