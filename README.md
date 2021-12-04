@@ -18,7 +18,7 @@ Step-by-Step Guide: [learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-
 
 ### Requirements
 
-1. USB to Serial cable (e.g. [factoryforward.com/product/pl2303-usb-to-ttl-serial-cable-rs232-module-for-raspberrypi/](https://www.factoryforward.com/product/pl2303-usb-to-ttl-serial-cable-rs232-module-for-raspberrypi/))
+1. USB to Serial cable (e.g, [factoryforward.com/product/pl2303-usb-to-ttl-serial-cable-rs232-module-for-raspberrypi/](https://www.factoryforward.com/product/pl2303-usb-to-ttl-serial-cable-rs232-module-for-raspberrypi/))
 2. Add the following line in `/boot/config.txt`,
 ```
 enable_uart=1
@@ -44,7 +44,7 @@ $ wpa_passphrase <ssid> <password>
 
 ![screenshot of wpa_passphrase](resources/wpa_passphrase.png)
 
-*Step 2:* Identify your network card (e.g. wlan0) using `iwconfig`.
+*Step 2:* Identify your network card (e.g, wlan0) using `iwconfig`.
 
 ```
 $ iwconfig
@@ -53,10 +53,10 @@ $ iwconfig
 ![screenshot of iwconfig](resources/iwconfig.png)
 
 *Step 3:* Create an interface file in `/etc/network/interfaces.d/<wlanid>`
-* Replace `<wlanid>` with your network card (e.g. wlan0).
+* Replace `<wlanid>` with your network card (e.g, wlan0).
 * Replace `<gwip>` with the IP of your router.
 * Replace `<ssid>` with your network SSID.
-* Replace `<psk>` with the encoded psk from `wpa_passphrase` in step 1 (e.g. 44116ea881531996d8a23af58b376d70f196057429c258f529577a26e727ec1b).
+* Replace `<psk>` with the encoded psk from `wpa_passphrase` in step 1 (e.g, 44116ea881531996d8a23af58b376d70f196057429c258f529577a26e727ec1b).
 
 ```
 auto <wlanid>
@@ -88,7 +88,7 @@ $ sudo systemctl restart networking
 
 ## Common Setup
 
-Use the Ansible playbook below for performing common tasks (e.g. swap, fail2ban),
+Use the Ansible playbook below for performing common tasks (e.g, swap, fail2ban),
 * ansible__ubuntu-basic
   * GitHub: [github.com/k3karthic/ansible__ubuntu-basic](https://github.com/k3karthic/ansible__ubuntu-basic)
   * Codeberg: [codeberg.org/k3karthic/ansible__ubuntu-basic](https://codeberg.org/k3karthic/ansible__ubuntu-basic)
