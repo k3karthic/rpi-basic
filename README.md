@@ -6,6 +6,11 @@ Table of Contents
 * [Connect Wi-Fi](#connect-wi-fi)
 * [Common Setup](#common-setup)
 
+## Code Mirrors
+
+* GitHub: [github.com/k3karthic/rpi-basic](https://github.com/k3karthic/rpi-basic/)
+* Codeberg: [codeberg.org/k3karthic/rpi-basic](https://codeberg.org/k3karthic/rpi-basic)`
+
 ## Secure Shell
 
 Enable remote SSH access by creating an empty file called `ssh` in `/boot`.
