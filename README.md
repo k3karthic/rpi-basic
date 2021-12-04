@@ -80,7 +80,7 @@ iface <wlanid> inet static
         wpa-psk <psk>
 ```
   
-*Step 4:* Restart systemd networking.service for changes to take effect.
+*Step 4:* Restart systemd `networking.service` for changes to take effect.
 
 ```
 $ sudo systemctl restart networking
