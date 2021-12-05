@@ -60,7 +60,7 @@ $ iwconfig
 **Step 3:** Create an interface file in `/etc/network/interfaces.d/<wlanid>`
 * Replace `<wlanid>` with your network card (e.g, wlan0)
 * Replace `<ssid>` with your network SSID
-* Replace `<psk>` with the encoded psk. Copy the encoded psk from `wpa_passphrase` in step 1 (e.g, 44116ea881531996d8a23af58b376d70f196057429c258f529577a26e727ec1b)
+* Replace `<psk>` with the encoded psk. Copy the encoded psk from `wpa_passphrase` in step 1 (e.g, 44116ea881531996d8a23af58b376d70f196057429c258f529577a26e727ec1b).
 
 ```
 auto <wlanid>
