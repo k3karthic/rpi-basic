@@ -106,7 +106,7 @@ $ sudo apt install virtualenv
 **Step 2:** Create and enable a virtual environment for Ansible
 ```
 $ virtualenv -p python3 --system-site-packages ~/.ansible
-$ . ~/.venv/bin/activate
+$ . ~/.ansible/bin/activate
 ```
 
 **Step 3:** Install Ansible
