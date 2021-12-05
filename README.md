@@ -9,7 +9,7 @@ Table of Contents
 ## Mirrors
 
 * GitHub: [github.com/k3karthic/rpi-basic](https://github.com/k3karthic/rpi-basic/)
-* Codeberg: [codeberg.org/k3karthic/rpi-basic](https://codeberg.org/k3karthic/rpi-basic)`
+* Codeberg: [codeberg.org/k3karthic/rpi-basic](https://codeberg.org/k3karthic/rpi-basic)
 
 ## Secure Shell
 
@@ -58,9 +58,9 @@ $ iwconfig
 ![screenshot of iwconfig](resources/iwconfig.png)
 
 **Step 3:** Create an interface file in `/etc/network/interfaces.d/<wlanid>`
-* Replace `<wlanid>` with your network card (e.g, wlan0).
-* Replace `<ssid>` with your network SSID.
-* Replace `<psk>` with the encoded psk. Copy the encoded psk from `wpa_passphrase` in step 1 (e.g, 44116ea881531996d8a23af58b376d70f196057429c258f529577a26e727ec1b).
+* Replace `<wlanid>` with your network card (e.g, wlan0)
+* Replace `<ssid>` with your network SSID
+* Replace `<psk>` with the encoded psk. Copy the encoded psk from `wpa_passphrase` in step 1 (e.g, 44116ea881531996d8a23af58b376d70f196057429c258f529577a26e727ec1b)
 
 ```
 auto <wlanid>
