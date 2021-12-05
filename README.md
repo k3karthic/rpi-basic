@@ -1,4 +1,4 @@
-# Basic Setup of a Raspberry Pi
+# Initial Steup for Raspberry Pi
 
 Table of Contents
 * [Secure Shell](#secure-shell)
@@ -91,7 +91,7 @@ $ sudo systemctl restart networking
 
 ## Common Setup
 
-Use the Ansible playbook below for performing common tasks (e.g, swap, fail2ban),
+The following Ansible playbook covers basic setup for Debian (e.g, swap, fail2ban),
 * ansible__ubuntu-basic
   * GitHub: [github.com/k3karthic/ansible__ubuntu-basic](https://github.com/k3karthic/ansible__ubuntu-basic)
   * Codeberg: [codeberg.org/k3karthic/ansible__ubuntu-basic](https://codeberg.org/k3karthic/ansible__ubuntu-basic)
