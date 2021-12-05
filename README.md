@@ -4,7 +4,7 @@ Table of Contents
 * [Secure Shell](#secure-shell)
 * [Serial Console](#serial-console)
 * [Connect Wi-Fi](#connect-wi-fi)
-* [Common Setup](#common-setup)
+* [Basic Setup](#basic-setup)
 
 ## Mirrors
 
@@ -89,7 +89,7 @@ iface <wlanid> inet static
 $ sudo systemctl restart networking
 ```
 
-## Common Setup
+## Basic Setup
 
 The following Ansible playbook covers basic setup for Debian (e.g, swap, fail2ban),
 * ansible__ubuntu-basic
