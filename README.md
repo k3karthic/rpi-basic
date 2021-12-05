@@ -70,8 +70,8 @@ iface <wlanid> inet dhcp
 ```
 
 Use the following reference for a static configuration,
-* Replace `<ip>` with the Pi's IP.
-* Replace `<nm>` with the netmask of the network.
+* Replace `<ip>` with the Pi's IP
+* Replace `<nm>` with the netmask of the network
 
 ```
 auto <wlanid>
