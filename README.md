@@ -1,4 +1,4 @@
-# Initial Steup for Raspberry Pi
+# Initial Setup for Raspberry Pi
 
 Table of Contents
 * [Secure Shell](#secure-shell)
